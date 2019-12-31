@@ -1,222 +1,163 @@
-.navbar-brand img
-{
-  max-height: 40px;
+/* impported fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+/* page elements */
+.navbar-brand img { max-height: 40px; }
+
+nav .logo_block { width: max-content; }
+
+header .row {
+  min-height: 70vh;
+  background-image:url(../img/fond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:  fixed;
+  color:white;
+  -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 86%);
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 86%);
 }
 
-.btn-outline-success 
-{
-    color: orange;
-    background-color: transparent;
-    background-image: none;
-    border-color: orange;
-}
-
-.btn-outline-success:hover 
-{
-
-	background-color: orange;
-}
-.form-control
-{
-  border: 1px solid orange;
-
-}
-
-.bg-light 
-
-	{
-      background-color: #DFF2FF !important;
-	}
-
-.btn-primary {
-
-	color: orange;
-    background-color: transparent;
-    background-image: none;
-    border-color: orange;
-}
-
-.btn-primary:hover{
- 
- background-color: orange;
-
-}
-
-/*header 
-{
-	background-image:url(../img/goku.jpg);
-	min-height: 70vh;
-}
-*/
-
-header .row
-{
-   min-height: 70vh;
-   background-image:url(../img/fond.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment:  fixed;
-   /*align-items :center;*/
-   color:white;
-   -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 86%);
-   clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 86%);
-}
-
-header .news 
-{
-
+header .left_side {
 	background-color: rgba(0,0,0,0.5);
 	min-height:70vh;
-	
-
 }
 
-header h1
-{
+header .left_side .title {
   font-family: 'Kurale', serif;
   margin-left: 20px;
 }
 
-header h2
-{
-
-	font-family: 'Dancing Script', cursive;
-	margin-bottom: 60px;
+header .right_side {
+  display:flex;
+  min-height: 70vh;
+  align-items:flex-end;
+  justify-content : flex-end;
 }
 
-header .phrase 
-{
-   display:flex;
-   min-height: 70vh;
-   align-items:flex-end;
-   justify-content : flex-end;
+header .right_side .title {
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 60px;
 }
 
-
-@media (max-width :768px)
-{
-  header .phrase {
-
-    display:none;
-  }
+#serv .media {
+  padding : 0.5rem 1rem;
+  cursor: context-menu;
+  border-radius: 18px;
+  transition: all .8s ease-in-out;  
 }
 
-/*#serv .media span{
+#serv .media:hover { background-color: rgba(223,242,255,0.7); }
 
-   color: #d39e00;
-}
-
-*/
-
-#serv .media span
-{
-
+#serv .media .icon_block {
+  color: #d39e00 ; 
+  font-size:3em;
   width:4rem;
   text-align: center;
 }
 
-#serv .media
-{
+#serv .media .title { font-family: 'Montserrat', sans-serif; }
 
-  padding : 0.5rem 1rem;
-  cursor: grab ;
-  border-radius: 18px;
-  transition: all .8s ease-in-out;
-  
+#serv .media .content { font-family: 'Raleway', sans-serif; }
+
+#recommandations .background_image {
+  min-height: 70vh;
+  background-image:url(../img/onepiece.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:  fixed;
 }
 
-#serv .media:hover
-{
-
-  background-color: rgba(223,242,255,0.7);
-
-
-}
-
-.image
-
-{
-  
-   min-height: 70vh;
-   background-image:url(../img/onepiece.png);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment:  fixed;
-   /*align-items :center;*/
-
-}
-
-.recommand
-{  
-
+#recommandations .content {  
   min-height:calc(100vh - 40px);
-
   background-color: #d39e00;
 }
 
-.recommand span
-
-{  
+#recommandations .content .icon_block {  
   color : rgba(223,242,255);
-
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
-.recommand h5
-{
+#recommandations .content .title {
+  font-family: 'Montserrat', sans-serif;
   font-size:2rem;
   color:rgba(223,242,255);
 }
 
-
-#contact
-
-{
-   background-image:url(../img/wall.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment:  fixed;
-   /*align-items :center;*/
-   min-height:calc(100vh - 66px);
+#recommandations .content .description { 
+  font-family: 'Raleway', sans-serif; 
+  font-size: large;
 }
 
-#contact .row
-{
-
-  min-height: calc(100vh - 66px);
+#contact {
+  background-image:url(../img/wall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:  fixed;
+  min-height:calc(100vh - 66px);
 }
 
-.form 
-{
+#contact .row { min-height: calc(100vh - 66px); }
 
+#contact .title { 
+  font-family: 'Montserrat', sans-serif; 
+  text-align: center;
+  margin: 30px auto;
+}
+
+#contact .form {
   background-color: rgba(255,255,255,.7);
   padding: 2rem 1rem;
-  margin-top: 60px;
 }
 
-footer 
-
-{
-
+footer {
   background-color: rgba(0,0,0,.7);
   color : #999;
   padding-top: 2rem;
-
 }
 
+footer .nav-links {
+  list-style: none;
+  padding: 0;
+}
 
-footer a 
-{
-
+footer .nav-links .link {
+  font-family: 'Rubik', sans-serif;
   color : #999;
-  font-size: 2rem;
-  transition: all .2s ease-in-out;
-
 }
 
-footer a:hover
-{
+footer .nav-links .social_link {
+  color : #999;
+  font-size: 1.5rem;
+  transition: all .2s ease-in-out;
+  margin-right: 5px;
+  margin-left: 5px;
+}
 
+footer .nav-links .social_link:hover {
   color:#fff;
   text-decoration: none;
 }
+
+/* custom classes */
+
+.custom_button {
+  color: orange;
+  background-color: transparent;
+  background-image: none;
+  border-color: orange;
+}
+.custom_button:hover { 
+  background-color: orange; 
+  color: whitesmoke;
+}
+
+.input_field { border: 1px solid orange; }
+
+.light_background { background-color: #DFF2FF !important; }
+
+/* media queries */
+
+@media (max-width :768px) { header .phrase { display:none; } }

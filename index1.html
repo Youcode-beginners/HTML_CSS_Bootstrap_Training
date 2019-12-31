@@ -13,303 +13,239 @@
 
     <!--CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo.png">
-  
-    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 
-    
     <title>MANGAS FANS</title>
   </head>
   <body id="High">
+    
+    <!--######## NAVIGATION ######## -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light light_background fixed-top">
+      <a class="navbar-brand" href="#High">
+        <img class="logo_block" src="img/logo.png" alt="logo" title="mangaFANS"> 
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <!--######## NAVIGATION ######## -->
-  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#High"><img src="img/logo.png" alt="logo" title="mangaFANS"> MANGAS ACCRO</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Accueil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#serv">Nos Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#recommandations">Recommandations</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contactez-nous</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-  <!--######## HEADER ######## -->
-
-  <header class="container-fluid">
-     <div class="row align-items-center">
-
-      <!--######## FIRST ######## -->
-    <div class="col-12 col-md-6 news d-flex align-items-center">
-      <div>
-        <h1>Souscrire</h1>
-     <form class="form-inline">
-  <div class="form-group mx-sm-3 mb-2">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre Email" required name="newsletteter">
-  </div>
-       <button type="submit" class="btn btn-primary mb-2">Souscrire NEWSLETTER </button>
-      </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#top">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#serv">Nos Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recommandations">Recommandations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contactez-nous</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control input_field mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn custom_button my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
+    </nav>
+
+    <!--######## HEADER ######## -->
+
+    <header class="container-fluid" id="top">
+      <div class="row align-items-center">
+
+        <!--######## FIRST ######## -->
+
+        <div class="col-12 col-md-6 left_side d-flex align-items-center">
+          <div>
+            <h1 class="title">Souscrire</h1>
+            <form class="form-inline">
+              <div class="form-group mx-sm-3 mb-2">
+                <input type="email" class="form-control input_field" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre Email" required name="newsletteter">
+              </div>
+              <button type="submit" class="btn custom_button mb-2">Souscrire NEWSLETTER </button>
+            </form>
+          </div>
+        </div>
+
+        <!--######## Second ######## -->
+    
+        <div class="col-12 col-md-6 right_side">
+          <h2 class="title"> Read More Manga </h2>
+        </div>
       </div>
+    </header>
 
-    <!--######## Second ######## -->
-    <div class="col-12 col-md-6 phrase">
+    <!--######## Les Services ######## -->
 
-      <h2> Read More Manga </h2>
-      
+    <div class="container" id="serv">
+        <div class="row">
+          <div class="col-12 mb-4">
+          <h2 class="title">Nos Services</h2>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span class="icon_block">
+              <i class="fas fa-paw"></i>
+            </span>
+            <div class="media-body ml-3" >
+              <h5 class="title mt-0">Best Animes</h5>
+              <p class="content text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span class="icon_block">
+              <i class="fab fa-phoenix-framework"></i>
+            </span>
+            <div class="media-body ml-3" >
+              <h5 class="title mt-0">Best Animes</h5>
+              <p class="content text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span class="icon_block">
+              <i class="fas fa-crow"></i>
+            </span>
+            <div class="media-body ml-3" >
+              <h5 class="title mt-0">Best Animes</h5>
+              <p class="content text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span class="icon_block">
+              <i class="far fa-grin-hearts"></i>
+            </span>
+            <div class="media-body ml-3" >
+              <h5 class="title mt-0">Best Animes</h5>
+              <p class="content text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span class="icon_block">
+              <i class="far fa-grin-stars"></i>
+            </span>
+            <div class="media-body ml-3" >
+              <h5 class="title mt-0">Best Animes</h5>
+              <p class="content text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span class="icon_block">
+              <i class="far fa-star"></i>
+            </span>
+            <div class="media-body ml-3" >
+              <h5 class="title mt-0">Best Animes</h5>
+              <p class="content text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-  </div>
-</header>
+    <!--######## Recommandations ######## -->
 
-  <!--######## Les Services ######## -->
-
-<div class="container" id="serv">
-  <div class="row">
-    <div class="col-12 mb-4">
-      <h2>Nos Services</h2>
-    </div>
-    <div class="col-12 col-md-6">
-      
-      <div class="media my-3">
- <span style="color: #d39e00 ; font-size:3em;">
-
-  <i class="fas fa-paw"></i>
- </span>
-
-  <div class="media-body ml-3" >
-
-    <h5 class="mt-0">Best Animes</h5>
-    <p class="text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-  </div>
-</div>
+    <div class="container-fluid" id="recommandations">
+      <div class="row">
+      <div class="col-12 col-md-6 background_image"></div>
+      <div class="col-12 col-md-6 content text-center d-flex flex-column justify-content-center">
+        <span class="icon_block">
+          <i class="fas fa-star"></i>
+        </span>
+        <h5 class="title my-4">ONE PIECE</h5>
+        <p class="description">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+      </div>
     </div>
 
-    <div class="col-12 col-md-6">
-      
-      <div class="media my-3">
- <span style="color: #d39e00 ; font-size:3em;">
+    <!--######## Contactez Nous  ######## -->
 
-  <i class="fab fa-phoenix-framework"></i>
- </span>
-
-  <div class="media-body ml-3" >
-
-    <h5 class="mt-0">Best Animes</h5>
-    <p class="text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-  </div>
-</div>
+    <div class="container-fluid" id="contact">
+      <div class="row align-items-center">
+        <div class="col-12 offset-md-1 col-md-4 form">
+          <h4 class="title">Contactez-nous</h4>
+          <form action="mailto:tijani.idrissi.abdellatif@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="email">Email </label>
+              <input type="email" class="form-control input_field" name="email" aria-describedby="emailHelp" placeholder="Votre Email">
+            </div>
+            <div class="form-group">
+              <label for="objet">Sujet</label>
+              <input type="text" class="form-control input_field" name="objet" placeholder="Objet">
+            </div>
+            <div class="form-group">
+              <label for="Sujet">Message</label>
+              <textarea class="form-control input_field" name="Sujet" rows="3" placeholder="Votre Sujet"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info">Soumettre</button>
+          </form>
+        </div>
+      </div>
     </div>
 
-    <div class="col-12 col-md-6">
-      
-      <div class="media my-3">
- <span style="color: #d39e00 ; font-size:3em;">
+    <!--######## FOOTER ######## -->
 
-  <i class="fas fa-crow"></i>
- </span>
-
-  <div class="media-body ml-3" >
-
-    <h5 class="mt-0">Best Animes</h5>
-    <p class="text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-  </div>
-</div>
-    </div>
-
-    <div class="col-12 col-md-6">
-      
-      <div class="media my-3">
- <span style="color: #d39e00 ; font-size:3em;">
-
-  <i class="far fa-grin-hearts"></i>
- </span>
-
-  <div class="media-body ml-3" >
-
-    <h5 class="mt-0">Best Animes</h5>
-    <p class="text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-  </div>
-</div>
-    </div>
-
-    <div class="col-12 col-md-6">
-      
-      <div class="media my-3">
- <span style="color: #d39e00 ; font-size:3em;">
-
-  <i class="far fa-grin-stars"></i>
- </span>
-
-  <div class="media-body ml-3" >
-
-    <h5 class="mt-0">Best Animes</h5>
-    <p class="text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-  </div>
-</div>
-    </div>
-
-    <div class="col-12 col-md-6">
-      
-    <div class="media my-3">
- <span style="color: #d39e00 ; font-size:3em;">
-
-  <i class="far fa-star"></i>
- </span>
-
-  <div class="media-body ml-3" >
-
-    <h5 class="mt-0">Best Animes</h5>
-    <p class="text-justify">lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-  </div>
-</div>
-    </div>
-
-
-      
-    </div>
-  </div>
-
-<!--######## Recommandations ######## -->
-
-<div class="container-fluid" id="recommandations">
-  <div class="row">
-
-    <div class="col-12 col-md-6 image">
-      
-
-
-    </div>
-
-
-    <div class="col-12 col-md-6 recommand text-center d-flex flex-column justify-content-center">
-      
-   <span>
-
-  <i class="fas fa-quote-left"></i>
-   </span>
-
-   <h5 class="my-4">ONE PIECE</h5>
-  <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-
-    </div>
-
-
-  </div>
-
-
-</div>
-
-
-<!--######## Contactez Nous  ######## -->
-
-<div class="container-fluid" id="contact">
-  <div class="row align-items-center">
-
-    <div class="col-12 offset-md-1 col-md-4 form">
-
-      <form action="mailto:tijani.idrissi.abdellatif@gmail.com" method="post" enctype="text/plain">
-  <div class="form-group">
-    <label for="email">Email </label>
-    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Votre Email">
-  </div>
-  <div class="form-group">
-    <label for="objet">Sujet</label>
-    <input type="text" class="form-control" name="objet" placeholder="Objet">
-  </div>
- 
-<div class="form-group">
-    <label for="Sujet">Message</label>
-    <textarea class="form-control" name="Sujet" rows="3" placeholder="Votre Sujet"></textarea>
-  
-</div>
-  <button type="submit" class="btn btn-info">Soumettre</button>
-</form>
-
-    </div>
-  </div>
-</div>
-
-<!--######## FOOTER ######## -->
-
-<footer class="container-fluid">
-  
-  <div class="row justify-content-around align-items-center">
-
-    <div class="col-12 col-md-4 text-center">
-      
-
-      <p>Adresse</p>
-      <p>Avenue Sakia el hamra , bettana <br />
-      Salé , Rabat</p>
-
-    </div>
-
-    <div class="col-12 col-md-4 text-center">
-      
-    <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-
-    <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-
-    <a href="http://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
-
-    </div>
-</footer>
+    <footer class="container-fluid">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-12 col-md-4">
+          <span style="display: flex;">
+            <i class="fa fa-map-marked-alt"></i>&nbsp;
+            <h6>Adresse :</h6>
+          </span>
+          <p>Avenue Sakia el hamra , bettana <br />
+          Salé , Rabat</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <ul class="nav-links">
+            <li>-</li>
+            <li><a class="link" href="#top">Accueil</a></li>
+            <li><a class="link" href="#serv">Nos Services</a></li>
+            <li><a class="link" href="#recommandations">Recommandations</a></li>
+            <li><a class="link" href="#contact">Contactez-nous</a></li>
+            <li>-</li>
+            <li>
+              <a class="social_link" href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a class="social_link" href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+              <a class="social_link" href="http://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <!--JS -->
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
     <script type="text/javascript">
-      
-      $(function(){
-
-        $('nav a[href^="#"]').click(function()
+      $( function() 
+      {
+        $('nav a[href^="#"]').click( function() 
         {
-
           var id = $(this).attr("href");
-          if(id === '#')
-          {
-
-            return;
-          }
-          $('html , body').animate({
-            scrollTop:$(id).offset().top
-          },2000);
-
-         return false;
           
+          $('html , body').animate(
+            {
+              scrollTop:$(id).offset().top
+            },
+            1000
+          );
+  
+          return false;
         });
       })
-
-       
-
     </script>
-      
-
-
   </body>
 </html>
